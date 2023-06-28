@@ -1,0 +1,152 @@
+body{
+    font-family: "Montserrat";
+}
+h1 {
+    font-family: "Montserra";
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: bold;  
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #443C68 ;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+                                      /* navbar css work */
+ .navbar{
+    padding:0 0 4.5rem;
+   }
+   .nav-item{
+    padding: 0 18px;
+   }
+                                      
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+                              /* download buttons */
+ .download-button{
+    margin: 5% 3% 5% 0;
+ }     
+                                           /* title image*/
+  .title-image{
+    width: 65%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+  }                                         
+                                     /* features */
+   #features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;  /* jyare pan z-index use kariye tyare postion absolute hovi joi ae. */
+   }         
+   .feature-box{
+    text-align: center;
+    padding: 5%;
+   }
+   .icon{
+    color: #B08BBB;
+    margin-bottom: 1rem;
+   }
+   .icon:hover{
+    color: #443C68;
+   }
+                                  /* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #443C68;
+    color: #fff;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #443C68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+                         /* pricing section */
+#pricing{
+    padding: 100px; 
+    text-align: center;
+}
+.pricing-colom{
+    padding: 3% 2%;
+}
+              /* call of action section */
+
+  #cta{
+    background-color: #443C68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }  
+  .cta-heading{
+    font-family:"Montserra" ;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+  }       
+  
+  
+                  /* footer section */
+
+   #footer{
+    padding: 7% 15%;
+    text-align: center;
+   }    
+   .social-icon{
+    margin: 20px 10px;
+   }           
+
+@media (max-width: 1028px){   /*aa media aapde screen mate karyu che special for mobile.*/
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
